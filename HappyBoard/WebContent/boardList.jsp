@@ -27,7 +27,9 @@
 <br>
 
 <div>
+	<a href="boardList?btype=${btype }&page=1">처음으로</a>&nbsp;&nbsp;&nbsp;&nbsp;
 	<c:forEach var="pageCnt" begin="1" end="${pageCnt}" step="1">
-		&nbsp;&nbsp;<a href="boardList?btype=${btype }&page=${pageCnt }"><span>${pageCnt }</span></a>&nbsp;&nbsp;
+		<a href="boardList?btype=${btype }&page=${pageCnt }"><span>${pageCnt }</span></a>&nbsp;&nbsp;
 	</c:forEach>
+	&nbsp;&nbsp;<a href="boardList?btype=${btype }&page=${pageCnt }">마지막으로</a>
 </div>
