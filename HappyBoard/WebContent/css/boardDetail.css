@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.d_content {
+	width: 100%;
+	border: 1px solid #d5d5d5; 
+	padding: 3%;
+}
+
+.d_top {
+	display: flex;
+	border-bottom: 1px dashed #d5d5d5;
+	justify-content: center;
+	align-items: center;
+}
+
+.d_top_title {
+	flex: 7;
+}
+
+.d_top_other {
+	flex: 3;
+}

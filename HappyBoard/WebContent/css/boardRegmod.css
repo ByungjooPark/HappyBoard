@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+form {
+	width: 100%;
+	border: 1px solid #d5d5d5;
+	padding: 3%;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+}
+
+.reg_top {
+	width: 100%;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+}
+
+.reg_mid {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

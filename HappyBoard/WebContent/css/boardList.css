@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.borderList {
+	width: 100%;
+	height: 100%;
+}
+
+th, td {
+	border: 1px solid #000;
+}
+
+.th1 {
+	width: 10%;
+}
+
+.th2 {
+	width: 70%;
+}
+
+.th3 {
+	width: 20%;
+}
+.td_center {
+	text-align: center;	
+}
