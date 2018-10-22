@@ -23,6 +23,7 @@ public class BoardModify extends HttpServlet {
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("modify cotect");
+		request.setCharacterEncoding("UTF-8");
 		
 		String str_r_type = request.getParameter("r_type");
 		int r_type = Util.chk_ZeroInteger(str_r_type);	
